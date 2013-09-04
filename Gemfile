@@ -22,12 +22,10 @@ gem 'configuration'
 gem 'fastercsv', '1.5.3', :platforms => :ruby_18
 # (using standard csv lib if ruby version is 1.9)
 
-group :production do
-  gem 'pg'
-end
+gem 'pg'
 
 group :development, :test do
-  gem 'sqlite3'
+# gem 'sqlite3'
   gem 'rspec-rails'
   gem 'factory_girl_rails'
   gem 'jasmine', '1.1.0'
@@ -37,15 +35,15 @@ group :development, :test do
 end
 
 
-if ENV['TRAVIS'] == 'true'
-  group :test do
-    case ENV['DB']
-    when'mysql'
-      gem 'mysql2'
-    when 'postgresql'
-      gem 'pg'
-    else
-      gem 'sqlite3'
-    end
-  end   
-end
+#if ENV['TRAVIS'] == 'true'
+#  group :test do
+#    case ENV['DB']
+#    when'mysql'
+#      gem 'mysql2'
+#    when 'postgresql'
+#      gem 'pg'
+#    else
+#      gem 'sqlite3'
+#    end
+#  end
+#end

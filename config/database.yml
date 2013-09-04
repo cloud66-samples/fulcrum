@@ -5,7 +5,6 @@ development:
   database: fulcrum_development
   pool: 5
   username: postgres
-  password:
 
 test:
   adapter: postgresql
@@ -13,7 +12,6 @@ test:
   database: fulcrum_test
   pool: 5
   username: postgres
-  password:
 
 production:
   adapter: postgresql
@@ -21,4 +19,3 @@ production:
   database: fulcrum_production
   pool: 5
   username: postgres
-  password:
