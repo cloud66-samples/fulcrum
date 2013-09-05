@@ -1,7 +1,7 @@
 production:
     after_rails:
       - source: /.cloud66/scripts/seed.sh
-        destination: ~/seed.sh
+        destination: /tmp/seed.sh
         target: rails
         apply_during: build_only
         execute: true
@@ -9,7 +9,7 @@ production:
 development:
     after_rails:
       - source: /.cloud66/scripts/seed.sh
-        destination: ~/seed.sh
+        destination: /tmp/seed.sh
         target: rails
         apply_during: build_only
         execute: true
@@ -17,7 +17,7 @@ development:
 staging:
     after_rails:
       - source: /.cloud66/scripts/seed.sh
-        destination: ~/seed.sh
+        destination: /tmp/seed.sh
         target: rails
         apply_during: build_only
         execute: true
