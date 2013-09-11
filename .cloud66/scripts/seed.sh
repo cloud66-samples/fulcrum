@@ -1,5 +1,4 @@
 #!/bin/bash
 source /var/.cloud66_env
 cd $RAILS_STACK_PATH
-bundle exec rake db:reset
-bundle exec rake db:migrate
+bundle exec rake db:setup

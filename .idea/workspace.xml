@@ -2,21 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tasks/kill_postgres_connections.rake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.cloud66/scripts/seed.sh" afterPath="$PROJECT_DIR$/.cloud66/scripts/seed.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fulcrum.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378470354085" ignored="false" />
+    <file path="/Dummy.txt" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378890465115" ignored="false" />
     <file path="/Gemfile" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378294871522" ignored="false" />
     <file path="/.gitignore" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378469851093" ignored="false" />
     <file path="$PROJECT_DIR$/../refinerycms/.cloud66/scripts/seed.sh" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378295119195" ignored="false" />
-    <file path="/seed.sh" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378471652612" ignored="false" />
+    <file path="/seed.sh" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378890509782" ignored="false" />
     <file path="$PROJECT_DIR$/../refinerycms/.cloud66/deploy_hooks.yml" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378295165147" ignored="false" />
-    <file path="/deploy_hooks.yml" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378469008817" ignored="false" />
+    <file path="/deploy_hooks.yml" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378473848243" ignored="false" />
     <file path="$PROJECT_DIR$/../amahi/.cloud66/deploy_hooks.yml" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378296336816" ignored="false" />
     <file path="$PROJECT_DIR$/../amahi/.cloud66/scripts/seed.sh" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378296341909" ignored="false" />
-    <file path="$PROJECT_DIR$/../discourse/.cloud66/deploy_hooks.yml" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378470468790" ignored="false" />
+    <file path="$PROJECT_DIR$/../discourse/.cloud66/deploy_hooks.yml" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378473848243" ignored="false" />
     <file path="$PROJECT_DIR$/../discourse/.cloud66/scripts/import.sh" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378469022160" ignored="false" />
     <file path="$PROJECT_DIR$/../amahi/config/database.yml" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378298344948" ignored="false" />
     <file path="/database.yml" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378298234829" ignored="false" />
@@ -38,7 +40,7 @@
     <file path="/stack_hook_controller.rb" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378380688598" ignored="false" />
     <file path="$PROJECT_DIR$/../discourse/lib/tasks/kill_postgres_connections.rake" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378389611050" ignored="false" />
     <file path="$PROJECT_DIR$/../discourse/.cloud66/scripts/env_vars.sh" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378389611051" ignored="false" />
-    <file path="/kill_postgres_connections.rake" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378383403659" ignored="false" />
+    <file path="/kill_postgres_connections.rake" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378840069132" ignored="false" />
     <file path="$PROJECT_DIR$/../discourse/.gitignore" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378391073377" ignored="false" />
     <file path="$PROJECT_DIR$/../discourse/config/unicorn.rb" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378389611050" ignored="false" />
     <file path="$PROJECT_DIR$/../discourse/config/discourse.pill.sample" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378389611050" ignored="false" />
@@ -54,6 +56,8 @@
     <file path="$PROJECT_DIR$/../redmine/.gitignore" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378469851093" ignored="false" />
     <file path="$PROJECT_DIR$/../redmine/config/initializers/secret_token.rb" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378469940686" ignored="false" />
     <file path="$PROJECT_DIR$/../redmine/config/configuration.yml" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378470284214" ignored="false" />
+    <file path="$PROJECT_DIR$/../../cloud66/docos/pages/api/instance_names.md" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378479656418" ignored="false" />
+    <file path="/instance_names.md" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378479656418" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,24 +104,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="i18n-js.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/i18n-js.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
@@ -127,10 +113,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seeds.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="49" selection-start="141" selection-end="157" vertical-scroll-proportion="0.12684989">
+            <state line="4" column="49" selection-start="141" selection-end="157" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -139,7 +125,7 @@
       <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="20" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
+            <state line="11" column="0" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -154,10 +140,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seed.sh" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="seed.sh" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.cloud66/scripts/seed.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="27" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
+            <state line="4" column="64" selection-start="84" selection-end="84" vertical-scroll-proportion="0.12684989">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deploy_hooks.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.cloud66/deploy_hooks.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kill_postgres_connections.rake" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/tasks/kill_postgres_connections.rake">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="16" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -182,10 +186,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/lib/tasks/fulcrum.rake" />
         <option value="$PROJECT_DIR$/.cloud66/deploy_hooks.yml" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/lib/tasks/kill_postgres_connections.rake" />
         <option value="$PROJECT_DIR$/.cloud66/scripts/seed.sh" />
       </list>
     </option>
@@ -222,6 +227,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
@@ -353,12 +359,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="Rails.Development: fulcrum">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -614,7 +620,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2503597" sideWeight="0.6709347" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25755396" sideWeight="0.6709347" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -690,53 +696,29 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/boot.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/compass.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/i18n-js.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
@@ -774,13 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/fulcrum.rake">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -788,16 +763,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.cloud66/scripts/seed.sh">
+    <entry file="file://$PROJECT_DIR$/.cloud66/deploy_hooks.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="27" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tasks/kill_postgres_connections.rake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="16" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="49" selection-start="141" selection-end="157" vertical-scroll-proportion="0.12684989">
+        <state line="4" column="49" selection-start="141" selection-end="157" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.cloud66/scripts/seed.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="64" selection-start="84" selection-end="84" vertical-scroll-proportion="0.12684989">
           <folding />
         </state>
       </provider>
