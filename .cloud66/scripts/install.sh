@@ -1,2 +1,2 @@
 #!/bin/bash
-apt-get install libqt4-dev
+apt-get install libqt4-dev -y
