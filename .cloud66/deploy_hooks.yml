@@ -7,6 +7,13 @@ production:
         execute: true
         sudo: true
 development:
+    first_thing:
+      - source: /.cloud66/scripts/install.sh
+        destination: /tmp/install.sh
+        target: rails
+        apply_during: build_only
+        execute: true
+        sudo: true
     after_rails:
       - source: /.cloud66/scripts/seed.sh
         destination: /tmp/seed.sh

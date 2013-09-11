@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.cloud66/scripts/install.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.cloud66/deploy_hooks.yml" afterPath="$PROJECT_DIR$/.cloud66/deploy_hooks.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/fulcrum.iml" afterPath="$PROJECT_DIR$/.idea/fulcrum.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fulcrum.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378898946864" ignored="false" />
+    <file path="/Dummy.txt" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378910275619" ignored="false" />
     <file path="/Gemfile" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378294871522" ignored="false" />
     <file path="/.gitignore" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378469851093" ignored="false" />
     <file path="$PROJECT_DIR$/../refinerycms/.cloud66/scripts/seed.sh" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378295119195" ignored="false" />
     <file path="/seed.sh" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378890509782" ignored="false" />
     <file path="$PROJECT_DIR$/../refinerycms/.cloud66/deploy_hooks.yml" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378295165147" ignored="false" />
-    <file path="/deploy_hooks.yml" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378473848243" ignored="false" />
+    <file path="/deploy_hooks.yml" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378910351090" ignored="false" />
     <file path="$PROJECT_DIR$/../amahi/.cloud66/deploy_hooks.yml" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378296336816" ignored="false" />
     <file path="$PROJECT_DIR$/../amahi/.cloud66/scripts/seed.sh" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378296341909" ignored="false" />
     <file path="$PROJECT_DIR$/../discourse/.cloud66/deploy_hooks.yml" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378473848243" ignored="false" />
@@ -75,10 +78,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="seeds.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="32" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.53424656">
+            <state line="26" column="32" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,25 +144,25 @@
       <file leaf-file-name="seed.sh" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.cloud66/scripts/seed.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="25" selection-start="58" selection-end="83" vertical-scroll-proportion="0.0">
+            <state line="0" column="11" selection-start="0" selection-end="11" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy_hooks.yml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="install.sh" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.cloud66/scripts/install.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deploy_hooks.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.cloud66/deploy_hooks.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kill_postgres_connections.rake" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/tasks/kill_postgres_connections.rake">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="16" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+            <state line="11" column="26" selection-start="302" selection-end="302" vertical-scroll-proportion="0.2260274">
               <folding />
             </state>
           </provider>
@@ -186,11 +189,12 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/lib/tasks/fulcrum.rake" />
-        <option value="$PROJECT_DIR$/.cloud66/deploy_hooks.yml" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/lib/tasks/kill_postgres_connections.rake" />
         <option value="$PROJECT_DIR$/.cloud66/scripts/seed.sh" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/.cloud66/scripts/install.sh" />
+        <option value="$PROJECT_DIR$/.cloud66/deploy_hooks.yml" />
       </list>
     </option>
   </component>
@@ -695,11 +699,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/i18n-js.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -738,20 +737,6 @@
     <entry file="file://$PROJECT_DIR$/lib/tasks/kill_postgres_connections.rake">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="16" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.cloud66/deploy_hooks.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.cloud66/scripts/seed.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="25" selection-start="58" selection-end="83" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -800,7 +785,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="32" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.53424656">
+        <state line="26" column="32" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.cloud66/scripts/seed.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="11" selection-start="0" selection-end="11" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.cloud66/scripts/install.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.cloud66/deploy_hooks.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="26" selection-start="302" selection-end="302" vertical-scroll-proportion="0.2260274">
           <folding />
         </state>
       </provider>
