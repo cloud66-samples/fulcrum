@@ -1,4 +1,4 @@
-if Rails.env.development?
+
   # Create a user
 
   user = User.create! :name => 'Test User', :initials => 'TU',
@@ -24,4 +24,3 @@ if Rails.env.development?
     note.user = user
     note.save!
   end
-end
