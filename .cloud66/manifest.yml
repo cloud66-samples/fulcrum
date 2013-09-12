@@ -1,0 +1,12 @@
+production:
+    rails:
+        server:
+            unique_name: frontend
+        configuration:
+            do_initial_db_schema_load: false
+development:
+    rails:
+        server:
+            unique_name: frontend
+        configuration:
+            do_initial_db_schema_load: false
