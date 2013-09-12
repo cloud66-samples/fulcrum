@@ -3,10 +3,10 @@ production:
         server:
             unique_name: frontend
         configuration:
-            do_initial_db_schema_load: false
+            do_initial_db_schema_load: true
 development:
     rails:
         server:
             unique_name: frontend
         configuration:
-            do_initial_db_schema_load: false
+            do_initial_db_schema_load: true
