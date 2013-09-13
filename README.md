@@ -12,6 +12,16 @@ details.
 
 ![Fulcrum Screenshot](https://github.com/malclocke/fulcrum/raw/master/doc/screenshot.png)
 
+Cloud 66 Deployment
+-------------------
+Environment variables:
+
+1. APP_HOST = your server IP/domain
+2. MAILER_SENDER = the email address used to send out emails
+3. SENDGRID_USERNAME = your Sendgrid username
+4. SENDGRID_PASSWORD = your Sendgrid password
+5. SENDGRID_DOMAIN = the domain you wish to send emails from
+
 Get involved
 ------------
 
