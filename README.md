@@ -12,16 +12,6 @@ details.
 
 ![Fulcrum Screenshot](https://github.com/malclocke/fulcrum/raw/master/doc/screenshot.png)
 
-Cloud 66 Deployment
--------------------
-Environment variables:
-
-1. APP_HOST = your server IP/domain
-2. MAILER_SENDER = the email address used to send out emails
-3. SENDGRID_USERNAME = your Sendgrid username
-4. SENDGRID_PASSWORD = your Sendgrid password
-5. SENDGRID_DOMAIN = the domain you wish to send emails from
-
 Get involved
 ------------
 
@@ -76,6 +66,23 @@ Once you have these:
 You should then be able to navigate to `http://localhost:3000/` in a web browser.
 You can log in with the test username `test@example.com`, password `testpass`.
 
+
+Cloud 66 setup
+-------------------
+Deploying and maintaining a Fulcrum setup through Cloud 66 is extremely easy. You just need to follow
+7 simple steps on [building your stack](https://www.cloud66.com/help/first_stack), and set the environment
+variables below to have your own fully functioning Fulcrum installation up and running. 
+
+This is done during step five, before you click 'deploy':
+![Environment variables](http://cdn.cloud66.com.s3.amazonaws.com/images/help/environment_variables.png)
+
+Environment variables:
+
+1. APP_HOST = your server IP/domain
+2. MAILER_SENDER = the email address used to send out emails
+3. SENDGRID_USERNAME = your Sendgrid username
+4. SENDGRID_PASSWORD = your Sendgrid password
+5. SENDGRID_DOMAIN = the domain you wish to send emails from
 
 Heroku setup
 ------------
