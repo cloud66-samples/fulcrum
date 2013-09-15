@@ -69,14 +69,14 @@ You can log in with the test username `test@example.com`, password `testpass`.
 
 Cloud 66 setup
 -------------------
-Deploying and maintaining a Fulcrum setup through Cloud 66 is extremely easy. You just need to follow
-7 simple steps on [building your stack](https://www.cloud66.com/help/first_stack), and set the environment
-variables below to have your own fully functioning Fulcrum installation up and running. 
-
-This is done during step five, before you click 'deploy':
-![Environment variables](https://raw.github.com/cloud66-samples/fulcrum/master/doc/environment_variables.png)
+Deploying and maintaining a Fulcrum setup through Cloud 66 is extremely easy. Simply follow
+7 steps on [building your stack](https://www.cloud66.com/help/first_stack), sign up for a Sendgrid account and set 
+the environment variables below to have your own fully functioning Fulcrum installation up and running. 
 
 Environment variables:
+
+Note: Setting environment variables is done during step five, before you click 'deploy':
+![Environment variables](https://raw.github.com/cloud66-samples/fulcrum/master/doc/environment_variables.png)
 
 1. APP_HOST = your server IP/domain
 2. MAILER_SENDER = the email address used to send out emails
