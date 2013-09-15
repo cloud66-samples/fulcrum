@@ -74,7 +74,7 @@ Deploying and maintaining a Fulcrum setup through Cloud 66 is extremely easy. Yo
 variables below to have your own fully functioning Fulcrum installation up and running. 
 
 This is done during step five, before you click 'deploy':
-![Environment variables]()
+![Environment variables](https://raw.github.com/cloud66-samples/fulcrum/master/doc/environment_variables.png)
 
 Environment variables:
 
