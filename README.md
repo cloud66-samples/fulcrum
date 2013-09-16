@@ -84,6 +84,7 @@ Note: Setting environment variables is done during step five, before you click '
 
 Default login details for development environment:
 Username: 'test@example.com'
+
 Password: 'testpass'
 
 Heroku setup
