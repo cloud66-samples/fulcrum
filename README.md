@@ -82,6 +82,10 @@ Note: Setting environment variables is done during step five, before you click '
 4. SENDGRID_PASSWORD = your Sendgrid password
 5. SENDGRID_DOMAIN = the domain you wish to send emails from
 
+Default login details for development environment:
+Username: 'test@example.com'
+Password: 'testpass'
+
 Heroku setup
 ------------
 
