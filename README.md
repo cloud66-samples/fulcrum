@@ -82,52 +82,11 @@ Note: Setting environment variables is done during step five, before you click '
 4. SENDGRID_PASSWORD = your Sendgrid password
 5. SENDGRID_DOMAIN = the domain you wish to send emails from
 
-Heroku setup
-------------
+Default login details for development environment:
 
-If you wish to host a publicly available copy of Fulcrum, the easiest option is
-to host it on [Heroku](http://heroku.com/).
+Username: 'test@example.com'
 
-To deploy it to Heroku, make sure you have a local copy of the project; refer
-to the previous section for instructions. Then:
-
-    $ gem install heroku
-
-    # Create your app. Replace APPNAME with whatever you want to name it.
-    $ heroku create APPNAME --stack cedar
-
-    # Set APP_HOST heroku config so outbound emails have a proper host
-    # Replace APPNAME below with the value from `heroku create`
-    $ heroku config:set APP_HOST=APPNAME.herokuapp.com
-
-    # Define where the user emails will be coming from
-    # (This email address does not need to exist)
-    $ heroku config:set MAILER_SENDER=noreply@example.org
-
-    # Allow emails to be sent
-    $ heroku addons:add sendgrid:starter
-
-    # Deploy the first version
-    $ git push heroku master
-
-    # Set up the database
-    $ heroku run rake db:setup
-
-Once that's done, you will be able to view your site at
-`http://APPNAME.herokuapp.com`.
-
-Deploying to other platforms
-----------------------------
-
-Fulcrum can be deployed to any platform that can host Rails.  Setting this
-up is beyond the scope of this document, but for the most part Fulcrum does
-not have any special operational requirements and can be deployed as a normal
-Rails application.
-
-You will need to set up some custom configuration, to do this copy the file
-`config/fulcrum.example.rb` to `config/fulcrum.rb` and edit to your
-requirements, or ensure the relevant environment variables are set for the
-application as described in the file above.
+Password: 'testpass'
 
 Translating
 -----------
