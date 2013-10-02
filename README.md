@@ -66,11 +66,19 @@ Once you have these:
 You should then be able to navigate to `http://localhost:3000/` in a web browser.
 You can log in with the test username `test@example.com`, password `testpass`.
 
+#### Cloud 66 EasyDeploy Repository
+Deploying and maintaining a Fulcrum setup through Cloud 66 is extremely easy. 
+Click the badge and follow the instructions below to deploy!
+
+<a href="http://www.cloud66.com">
+<img src="https://raw.github.com/cloud66-samples/fulcrum/master/doc/easy-deploy.png"/>
+</a>
+
+This repository is a Cloud 66 EasyDeploy repository.
 
 Cloud 66 setup
 -------------------
-Deploying and maintaining a Fulcrum setup through Cloud 66 is extremely easy. Simply follow
-7 steps on [building your stack](https://www.cloud66.com/help/first_stack), sign up for a Sendgrid account and set 
+Simply follow 7 steps on [building your stack](https://www.cloud66.com/help/first_stack), sign up for a Sendgrid account and set 
 the environment variables below to have your own fully functioning Fulcrum installation up and running. 
 
 Note: Setting environment variables is done during step five, before you click 'deploy':
@@ -87,10 +95,6 @@ Default login details for development environment:
 Username: 'test@example.com'
 
 Password: 'testpass'
-
-<a href="http://www.cloud66.com">
-<img src="http://cdn.cloud66.com/images/deploy-with-cloud66.png"/>
-</a>
 
 Translating
 -----------
