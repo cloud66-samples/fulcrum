@@ -66,7 +66,8 @@ Once you have these:
 You should then be able to navigate to `http://localhost:3000/` in a web browser.
 You can log in with the test username `test@example.com`, password `testpass`.
 
-#### Cloud 66 EasyDeploy Repository
+Cloud 66 EasyDeploy Repository
+----------------------------------------
 Deploying and maintaining a Fulcrum setup through Cloud 66 is extremely easy. 
 Click the badge and follow the instructions below to deploy!
 
