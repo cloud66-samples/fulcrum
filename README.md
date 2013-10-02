@@ -88,6 +88,10 @@ Username: 'test@example.com'
 
 Password: 'testpass'
 
+<a href="http://www.cloud66.com">
+<img src="http://cdn.cloud66.com/images/deploy-with-cloud66.png"/>
+</a>
+
 Translating
 -----------
 
