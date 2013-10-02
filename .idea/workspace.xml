@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.cloud66/scripts/install.sh" afterPath="$PROJECT_DIR$/.cloud66/scripts/install.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.cloud66/scripts/seed.sh" afterPath="$PROJECT_DIR$/.cloud66/scripts/seed.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" name="Default" comment="" />
     <ignored path="fulcrum.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1380553282735" ignored="false" />
+    <file path="/Dummy.txt" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1380553499530" ignored="false" />
     <file path="/Gemfile" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1379371344043" ignored="false" />
     <file path="/.gitignore" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1379328870054" ignored="false" />
     <file path="$PROJECT_DIR$/../refinerycms/.cloud66/scripts/seed.sh" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378295119195" ignored="false" />
-    <file path="/seed.sh" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1380552855723" ignored="false" />
+    <file path="/seed.sh" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1380553455941" ignored="false" />
     <file path="$PROJECT_DIR$/../refinerycms/.cloud66/deploy_hooks.yml" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378295165147" ignored="false" />
     <file path="/deploy_hooks.yml" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1379506362523" ignored="false" />
     <file path="$PROJECT_DIR$/../amahi/.cloud66/deploy_hooks.yml" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1378296336816" ignored="false" />
@@ -139,6 +135,7 @@
     <file path="$PROJECT_DIR$/../../cloud66/appstore/lib/notification_centre.rb" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1379499617192" ignored="false" />
     <file path="$PROJECT_DIR$/../errbit/.cloud66/scripts/bundle.sh" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1380553332690" ignored="false" />
     <file path="/bundle.sh" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1380553330862" ignored="false" />
+    <file path="$PROJECT_DIR$/../selfstarter/.cloud66/seed.sh" changelist="e0e0a70c-b595-4dc2-8bce-3e1cdad0326d" time="1380553458454" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
