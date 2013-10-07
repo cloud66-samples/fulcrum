@@ -1,8 +1,6 @@
 <a href="http://blog.cloud66.com/post/62900887610/introducing-cloud-66-easydeploy">
-<img src="https://raw.github.com/cloud66-samples/fulcrum/master/doc/easy-deploy.png"/>
+![Logo](http://cdn.cloud66.com/images/easy-deploy.png)
 </a>
-
-This is a Cloud 66 EasyDeploy repository.
 
 Fulcrum
 =======
