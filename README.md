@@ -1,7 +1,3 @@
-<a href="http://blog.cloud66.com/post/62900887610/introducing-cloud-66-easydeploy">
-![Logo](http://cdn.cloud66.com/images/easy-deploy.png)
-</a>
-
 Fulcrum
 =======
 
@@ -71,12 +67,16 @@ You should then be able to navigate to `http://localhost:3000/` in a web browser
 You can log in with the test username `test@example.com`, password `testpass`.
 
 ## Deploying with Cloud 66
-Deploying and maintaining a Fulcrum setup through Cloud 66 is extremely easy. 
+<a href="http://blog.cloud66.com/post/62900887610/introducing-cloud-66-easydeploy">
+![Logo](http://cdn.cloud66.com/images/easy-deploy.png)
+</a>
+
+Deploying and maintaining a Fulcrum setup through Cloud 66 is extremely easy.
 Click the badge and follow the instructions below to deploy!
 
 #### Deploying on Cloud 66
-Simply follow 7 steps on [building your stack](https://www.cloud66.com/help/first_stack), sign up for a Sendgrid account and set 
-the environment variables below to have your own fully functioning Fulcrum installation up and running. 
+Simply follow 7 steps on [building your stack](https://www.cloud66.com/help/first_stack), sign up for a Sendgrid account and set
+the environment variables below to have your own fully functioning Fulcrum installation up and running.
 
 Note: Setting environment variables is done during step five, before you click 'deploy':
 ![Environment variables](https://raw.github.com/cloud66-samples/fulcrum/master/doc/environment_variables.png)
@@ -92,6 +92,53 @@ Default login details for development environment:
 Username: 'test@example.com'
 
 Password: 'testpass'
+
+Heroku setup
+------------
+
+If you wish to host a publicly available copy of Fulcrum, the easiest option is
+to host it on [Heroku](http://heroku.com/).
+
+To deploy it to Heroku, make sure you have a local copy of the project; refer
+to the previous section for instructions. Then:
+
+    $ gem install heroku
+
+    # Create your app. Replace APPNAME with whatever you want to name it.
+    $ heroku create APPNAME --stack cedar
+
+    # Set APP_HOST heroku config so outbound emails have a proper host
+    # Replace APPNAME below with the value from `heroku create`
+    $ heroku config:set APP_HOST=APPNAME.herokuapp.com
+
+    # Define where the user emails will be coming from
+    # (This email address does not need to exist)
+    $ heroku config:set MAILER_SENDER=noreply@example.org
+
+    # Allow emails to be sent
+    $ heroku addons:add sendgrid:starter
+
+    # Deploy the first version
+    $ git push heroku master
+
+    # Set up the database
+    $ heroku run rake db:setup
+
+Once that's done, you will be able to view your site at
+`http://APPNAME.herokuapp.com`.
+
+Deploying to other platforms
+----------------------------
+
+Fulcrum can be deployed to any platform that can host Rails.  Setting this
+up is beyond the scope of this document, but for the most part Fulcrum does
+not have any special operational requirements and can be deployed as a normal
+Rails application.
+
+You will need to set up some custom configuration, to do this copy the file
+`config/fulcrum.example.rb` to `config/fulcrum.rb` and edit to your
+requirements, or ensure the relevant environment variables are set for the
+application as described in the file above.
 
 Translating
 -----------
