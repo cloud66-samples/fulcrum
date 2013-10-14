@@ -79,7 +79,7 @@ Simply follow 7 steps on [building your stack](https://www.cloud66.com/help/firs
 the environment variables below to have your own fully functioning Fulcrum installation up and running.
 
 Note: Setting environment variables is done during step five, before you click 'deploy':
-![Environment variables](https://raw.github.com/cloud66-samples/fulcrum/master/doc/environment_variables.png)
+![Environment variables](http://cdn.cloud66.com/images/environment_variables.png)
 
 1. APP_HOST = your server IP/domain
 2. MAILER_SENDER = the email address used to send out emails
