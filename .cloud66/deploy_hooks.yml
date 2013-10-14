@@ -3,13 +3,15 @@ production:
       - source: /.cloud66/files/database.yml
         destination: <%= ENV['RAILS_STACK_PATH'] %>/config/database.yml
         target: rails
-    after_checkout:
       - source: /.cloud66/files/fulcrum.rb
         destination: <%= ENV['RAILS_STACK_PATH'] %>/config/fulcrum.rb
         target: rails
-    after_checkout:
       - source: /.cloud66/files/secret_token.rb
         destination: <%= ENV['RAILS_STACK_PATH'] %>/config/initializers/secret_token.rb
+        target: rails
+        parse: true
+      - source: /.cloud66/files/fulcrum.rake
+        destination: <%= ENV['RAILS_STACK_PATH'] %>/lib/tasks/fulcrum.rake
         target: rails
         parse: true
     first_thing:
