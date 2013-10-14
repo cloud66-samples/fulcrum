@@ -1,10 +1,22 @@
 production:
+    environment_variables:
+        SECRET_TOKEN: AUTO_GENERATE_30
     rails:
         server:
             unique_name: frontend
         configuration:
             do_initial_db_schema_load: true
 development:
+    environment_variables:
+        SECRET_TOKEN: AUTO_GENERATE_30
+    rails:
+        server:
+            unique_name: frontend
+        configuration:
+            do_initial_db_schema_load: true
+staging:
+    environment_variables:
+        SECRET_TOKEN: AUTO_GENERATE_30
     rails:
         server:
             unique_name: frontend

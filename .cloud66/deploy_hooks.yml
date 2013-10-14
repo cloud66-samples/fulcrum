@@ -1,4 +1,17 @@
 production:
+    after_checkout:
+      - source: /.cloud66/files/database.yml
+        destination: <%= ENV['RAILS_STACK_PATH'] %>/config/database.yml
+        target: rails
+    after_checkout:
+      - source: /.cloud66/files/fulcrum.rb
+        destination: <%= ENV['RAILS_STACK_PATH'] %>/config/fulcrum.rb
+        target: rails
+    after_checkout:
+      - source: /.cloud66/files/secret_token.rb
+        destination: <%= ENV['RAILS_STACK_PATH'] %>/config/initializers/secret_token.rb
+        target: rails
+        parse: true
     first_thing:
       - source: /.cloud66/scripts/install.sh
         destination: /tmp/install.sh
@@ -15,6 +28,19 @@ production:
         execute: true
         sudo: true
 development:
+    after_checkout:
+      - source: /.cloud66/files/database.yml
+        destination: <%= ENV['RAILS_STACK_PATH'] %>/config/database.yml
+        target: rails
+    after_checkout:
+      - source: /.cloud66/files/fulcrum.rb
+        destination: <%= ENV['RAILS_STACK_PATH'] %>/config/fulcrum.rb
+        target: rails
+    after_checkout:
+      - source: /.cloud66/files/secret_token.rb
+        destination: <%= ENV['RAILS_STACK_PATH'] %>/config/initializers/secret_token.rb
+        target: rails
+        parse: true
     first_thing:
       - source: /.cloud66/scripts/install.sh
         destination: /tmp/install.sh
@@ -31,6 +57,19 @@ development:
         execute: true
         sudo: true
 staging:
+    after_checkout:
+      - source: /.cloud66/files/database.yml
+        destination: <%= ENV['RAILS_STACK_PATH'] %>/config/database.yml
+        target: rails
+    after_checkout:
+      - source: /.cloud66/files/fulcrum.rb
+        destination: <%= ENV['RAILS_STACK_PATH'] %>/config/fulcrum.rb
+        target: rails
+    after_checkout:
+      - source: /.cloud66/files/secret_token.rb
+        destination: <%= ENV['RAILS_STACK_PATH'] %>/config/initializers/secret_token.rb
+        target: rails
+        parse: true
     first_thing:
       - source: /.cloud66/scripts/install.sh
         destination: /tmp/install.sh
